@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>WXCalculator</title>
+    <link rel="stylesheet" href="../static/style.css">
+
+</head>
+<body>
+    <div class="cal-container">
+        <form action="http://localhost:8000" method="get">
+            <input class="input" value={{ display }} readonly>
+            <table>
+            <tr>
+                <td><input class="button" name="btn" type="submit" value="7"></td>
+                <td><input class="button" name="btn" type="submit" value="8"></td>
+                <td><input class="button" name="btn" type="submit" value="9"></td>
+                <td><input class="button" name="btn" type="submit" value="+"></td>
+            </tr>
+            <tr>
+                <td><input class="button" name="btn" type="submit" value="4"></td>
+                <td><input class="button" name="btn" type="submit" value="5"></td>
+                <td><input class="button" name="btn" type="submit" value="6"></td>
+                <td><input class="button" name="btn" type="submit" value="-"></td>
+            </tr>
+            <tr>
+                <td><input class="button" name="btn" type="submit" value="1"></td>
+                <td><input class="button" name="btn" type="submit" value="2"></td>
+                <td><input class="button" name="btn" type="submit" value="3"></td>
+                <td><input class="button" name="btn" type="submit" value="×"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input class="button" name="btn" type="submit" value="0"></td>
+                <td><input class="button" name="btn" type="submit" value="="></td>
+                <td><input class="button" name="btn" type="submit" value="÷"></td>
+            </tr>
+        </table>
+            <input class="text" name="test1" type="hidden" value={{ help1 }} >
+            <input class="text" name="testop" type="hidden" value={{ helpop }}>
+            <input class="text" name="test2" type="hidden" value={{ help2 }}>
+
+        </form>
+
+    </div>
+</body>
+</html>

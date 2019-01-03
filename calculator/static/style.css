@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.button{
+    background: lightgoldenrodyellow;
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    border: solid grey;
+    border-radius: 30%;
+    margin: 2px;
+}
+.input{
+    background: beige;
+    width: 183px;
+    margin: 6px;
+    font-size: 25px;
+    border: solid grey;
+    padding: 13px;
+}
+.cal-container{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+}
+input[type=button]:active {
+    background-color: beige;
+}
+input[type=submit]:hover {
+    background-color: cadetblue;
+}
+
+.button[value='+'] {
+    background: coral;
+}
+.button[value='-'] {
+    background: coral;
+}
+.button[value="×"] {
+    background: coral;
+}
+.button[value="÷"] {
+    background: coral;
+}
+.button[value="="] {
+    background: coral;
+}
