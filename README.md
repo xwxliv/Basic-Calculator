@@ -9,6 +9,3 @@
     1. calculate and erase the history after a legal equation is entered;
     2. If use enters the first val followed by '=' button, then result box will display the value entered by him/herself. AND back to the i step (erase the history)
 
-## Edge cases:
-- divided by 0 or -0: returns an "Err," string on output box.
-- other unimaginable/melformed testing equations should be handled properly...
